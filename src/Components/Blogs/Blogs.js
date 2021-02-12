@@ -23,7 +23,7 @@ function Blogs() {
     // eslint-disable-next-line no-console
     searchInput = 'new';
   }
-  const blogUrl = `http://newsapi.org/v2/everything?q=${searchInput}&apiKey=ec859c1f4dcd4e0b8b7220544371604b`;
+  const blogUrl = `https://newsapi.org/v2/everything?q=${searchInput}&apiKey=ec859c1f4dcd4e0b8b7220544371604b`;
   React.useEffect(() => {
     axios
       .get(blogUrl)
